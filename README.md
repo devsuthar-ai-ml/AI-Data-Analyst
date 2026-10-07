@@ -44,3 +44,6 @@ requirements.txt
 
 ## License
 MIT. See [LICENSE](LICENSE).
+
+   ![Upload and prompt](demo1.png)
+   ![Correlation heatmap](demo2.png)
