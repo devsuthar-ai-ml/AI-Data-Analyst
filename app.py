@@ -100,6 +100,6 @@ if st.button("Run analysis"):
         st.download_button("Download result as CSV", data=csv, file_name="result.csv", mime="text/csv")
     elif res["type"] == "image":
         st.markdown("#### Output (chart)")
-        st.image(res["path"], use_column_width=True)
+        st.image(res["path"], width='stretch')
     else:
         st.write("Unknown result type", res)
